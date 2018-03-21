@@ -1,6 +1,9 @@
 # hlsuploader
 Can convert any H264/HEVC video stream to HLS,and synchronizing send to mutiple servers using (http-dav) method,Such as nginx
 
+Related projects:
+https://github.com/FFmpeg/FFmpeg
+
 API control:
 传输查询接口
 1.查询所有节目信息
