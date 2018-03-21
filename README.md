@@ -1,6 +1,8 @@
 # hlsuploader
 Can convert any H264/HEVC video stream to HLS,and synchronizing send to mutiple servers using (http-dav) method,Such as nginx
 
+Purpose: this project is used for live-p2p resource transmisstion.
+
 Related projects:
 https://github.com/FFmpeg/FFmpeg
 
