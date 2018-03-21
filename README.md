@@ -6,7 +6,9 @@ https://github.com/FFmpeg/FFmpeg
 
 API control:
 传输查询接口
+
 1.查询所有节目信息
+
 HTTP GET  /api/query_allchannelinfo
 
 {
@@ -50,7 +52,9 @@ HTTP GET  /api/query_allchannelinfo
 }
 
 2.查询当前节目传输情况 url=(base64)
+
 HTTP GET /api/query_channel_transinfo&url=L2xpdmUvemhvbmd3ZW4vQ0NUVjEvcGxheWxpc3Q=     (/live/zhongwen/CCTV1/playlist)
+
 {
     "node_name":"trans_first_1",
     "channel_name":"test1",
@@ -98,9 +102,13 @@ HTTP GET /api/query_channel_transinfo&url=L2xpdmUvemhvbmd3ZW4vQ0NUVjEvcGxheWxpc3
     ]
 }
 
+
 传输临时控制接口（不可保存配置）
+
 HTTP POST /api/channel_api_control
+
 添加节目
+
 {
     "cmd":"add_channel",
     "channel_name":"test1",
@@ -124,7 +132,9 @@ HTTP POST /api/channel_api_control
 		}
     ]
 }
+
 删除节目
+
 {
     "cmd":"del_channel",
     "channel_name":"test1",
